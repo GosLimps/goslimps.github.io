@@ -8,7 +8,7 @@
   "start_url": "https://goslimps.github.io/",
   "scope": "https://goslimps.github.io/",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": ["standalone", "minimal-ui", "window-controls-overlay"],
   "orientation": "any",
   "background_color": "#0E1116",
   "theme_color": "#0E1116",
