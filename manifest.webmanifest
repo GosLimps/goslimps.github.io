@@ -1,0 +1,22 @@
+{
+  "id": "hyrule-map-pwa",
+  "name": "Карта Хайрула",
+  "short_name": "Хайрул",
+  "description": "Интерактивная карта-компаньон: метки по категориям, прогресс, импорт/экспорт JSON, своя карта. Работает офлайн.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "https://goslimps.github.io/",
+  "scope": "https://goslimps.github.io/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0E1116",
+  "theme_color": "#0E1116",
+  "categories": ["utilities", "games", "navigation"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
